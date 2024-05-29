@@ -6,6 +6,7 @@ function MovieCard({ movie, movies, setMovies }) {
 
   return (
     <div style={{ display: 'flex', marginBottom: '20px' }}>
+      <img src={image} alt={title} style={{ width: '200px', height: 'auto', marginRight: '20px' }} />
       <div style={{ display: 'flex', flexDirection: 'column', justifyContent: 'space-between' }}>
         <h2>{title} <MoviesDelete movie={movie} movies={movies} setMovies={setMovies} /></h2>
         <p>Nota: {rate}/10 </p>

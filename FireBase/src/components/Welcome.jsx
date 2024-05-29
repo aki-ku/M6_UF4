@@ -5,7 +5,7 @@ function Welcome({ username }) {
   return (
     <div>
       <h1>Bon dia {username}!</h1>
-    <p> Aquestes són les teves pel·licules</p>
+    <p> Aquestes són les teves pelis</p>
     </div>
   );
 }

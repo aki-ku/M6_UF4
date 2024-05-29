@@ -3,20 +3,13 @@ import firebase from 'firebase/compat/app';
 import 'firebase/compat/firestore';
 
 export const firebaseConfig = {
-  apiKey: "AIzaSyCrQA_EKSLpjdoQUmysdOqHek3s53IwrvU",
-
-  authDomain: "peli-a91a1.firebaseapp.com",
-
-  projectId: "peli-a91a1",
-
-  storageBucket: "peli-a91a1.appspot.com",
-
-  messagingSenderId: "639984858847",
-
-  appId: "1:639984858847:web:2768f867f4e837fbb7db6a",
-
-  measurementId: "G-C8SZ42NN69"
-
+  apiKey: "AIzaSyCA2MH960iZkZaCiFVXDFj9EkbYtS9s58Q",
+  authDomain: "act7-ef80a.firebaseapp.com",
+  projectId: "act7-ef80a",
+  storageBucket: "act7-ef80a.appspot.com",
+  messagingSenderId: "548310319299",
+  appId: "1:548310319299:web:ec3b8135edef3941f12276",
+  measurementId: "G-EW6RTP5Q63",
 };
 
 firebase.initializeApp(firebaseConfig);
